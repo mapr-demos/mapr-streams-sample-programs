@@ -16,11 +16,9 @@
 
     <repositories>
         <repository>
-            <id>mapr-maven</id>
-            <url>http://repository.mapr.com/maven</url>
-            <releases><enabled>true</enabled></releases>
-            <snapshots><enabled>false</enabled></snapshots>
-        </repository>
+          <id>mapr-releases</id>
+          <url>http://repository.mapr.com/maven/</url>
+       </repository>
     </repositories>
 
     <dependencies>
@@ -48,7 +46,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>31.0.1</version>
+            <version>30.1.1-jre</version>
         </dependency>
         <dependency>
             <groupId>org.hdrhistogram</groupId>
