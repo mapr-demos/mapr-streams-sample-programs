@@ -10,7 +10,7 @@
 
     <properties>
         <mapr-version>6.1.0-mapr</mapr-version>
-        <mapr-streams-version>1.1.1-mapr-streams-6.1.0</mapr-streams-version>
+        <mapr-streams-version>2.6.1.109-eep-810</mapr-streams-version>
     </properties>
 
 
